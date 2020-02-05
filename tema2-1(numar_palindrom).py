@@ -16,8 +16,7 @@ while x != 0:
         sp = sp + x % 10
     else:
         si = si + x % 10
-    dig = x % 10
-    nrp = nrp * 10 + dig
+    nrp = nrp * 10 + x % 10
     x = x // 10
 print("Suma cifrelor este: ", s)
 print("Avem ", p, "numere pare!")
